@@ -1,12 +1,23 @@
-# React + Vite
+# CineVerse 🎬
+Bem-vindo ao CineVerse! Este é um projeto de aplicação web para explorar, gerenciar e recomendar filmes. Desenvolvido com tecnologias modernas, o CineVerse oferece uma experiência intuitiva para os amantes de cinema.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Funcionalidades ✨
+Listagem de Filmes: Explore uma vasta coleção de filmes com detalhes como título, descrição, ano de lançamento e avaliação.
 
-Currently, two official plugins are available:
+Pesquisa Avançada: Encontre filmes por título, gênero ou ano.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Recomendações Personalizadas: Receba sugestões de filmes com base no seu histórico de visualização.
 
-## Expanding the ESLint configuration
+Detalhes do Filme: Veja informações detalhadas sobre cada filme, incluindo elenco, diretor e trailer.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Favoritos: Salve seus filmes favoritos para assistir mais tarde.
+
+## Tecnologias Utilizadas 🛠️
+
+### Front-end:
+
+- React.js
+
+- React Router (para navegação)
+
+- CSS (para estilização)
