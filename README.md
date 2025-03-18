@@ -1,5 +1,5 @@
 # CineVerse 🎬
-Bem-vindo ao CineVerse! Este é um projeto de aplicação web para explorar, gerenciar e recomendar filmes. Desenvolvido com tecnologias modernas, o CineVerse oferece uma experiência intuitiva para os amantes de cinema.
+Bem-vindo ao CineVerse! Este é um projeto de aplicação web para explorar, gerenciar e recomendar filmes. Desenvolvido com React.js, o CineVerse oferece uma experiência intuitiva para os amantes de cinema.
 
 ## Funcionalidades ✨
 Listagem de Filmes: Explore uma vasta coleção de filmes com detalhes como título, descrição, ano de lançamento e avaliação.
