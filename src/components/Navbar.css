@@ -17,12 +17,18 @@
     gap: .5rem;
 }
 
+
 #navbar input {
+    width: 200px;
     padding: .2rem .8rem;
     border-radius: 4px;
     border: none;
+    transition: 0.6s ease;
 }
 
+#navbar input:hover {
+    width: 300px;
+}
 #navbar form button {
     background-color: #f7d354;
     border: 2px solid #f7d354;
