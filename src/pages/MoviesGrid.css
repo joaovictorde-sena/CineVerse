@@ -6,7 +6,7 @@
 }
 
 .title .query-text {
-    color: #f7d354;
+    color: #e48108;
 }
 
 .movies-container {
@@ -40,12 +40,13 @@
 }
 
 .movies-container div svg {
-    color: #f7d354;
+    color: #FF8C00;
 }
 
 .movies-container div a{
-    background-color: #f7d354;
-    border: 2px solid #f7d354;
+    /* background-color: #f7d354; */
+    background-color: #e48108;
+    border: 2px solid #e48108;
     border-radius: 4px;
     color: #000;
     padding: 1rem 0.5rem;
@@ -57,5 +58,6 @@
 
 .movies-container div a:hover {
     background-color: transparent;
-    color: #f7d354;
+    color:#e48108;
+    ;
 }
