@@ -81,7 +81,7 @@ cd CineVerse
 npm install
 ```
 
-Insira sua chave da TMDb no código onde for necessário (provisoriamente).
+Insira sua chave da TMDb no código onde for necessário .
 
 Inicie o projeto:
 
