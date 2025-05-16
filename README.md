@@ -42,17 +42,11 @@ No início, a aplicação exibia uma tela em branco porque os dados ainda não h
 
 ### Requisições mal formatadas
 
-Cometi erros simples, como esquecer de adicionar o `api_key` ou formatar incorretamente a URL. Esses erros resultavam em requisições falhando silenciosamente, o que dificultava o diagnóstico.
+Cometi erros simples, como esquecer de adicionar a chave de API ou formatar incorretamente a URL. Esses erros resultavam em requisições falhando silenciosamente, o que dificultou o diagnóstico.
 
 ### Tratamento de erros da API
 
-Aprendi que nem sempre a API retorna exatamente o que esperamos — precisei implementar verificações extras para garantir que a aplicação não quebrasse com dados indefinidos.
-
-### Ajuda externa para resolver um bug importante
-
-Em um momento específico, não conseguia fazer com que o `useEffect` atualizasse corretamente as informações ao navegar entre diferentes páginas de filmes. Depois de bastante tentativa e erro, pedi ajuda a um programador mais experiente, que me mostrou que eu precisava colocar as dependências corretas no array do `useEffect` e evitar chamadas repetidas à API.
-
-Essa troca foi extremamente valiosa e me ensinou o quanto a comunidade pode ser útil quando não conseguimos resolver tudo sozinhos.
+Aprendi que nem sempre a API retorna exatamente o que esperamos, precisei implementar verificações extras para garantir que a aplicação não quebrasse com dados indefinidos.
 
 ---
 
