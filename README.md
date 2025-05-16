@@ -1,12 +1,90 @@
-# React + Vite
+# 🎬 CineVerse
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Repositório do projeto: [CineVerse](https://github.com/joaovictorde-sena/CineVerse/tree/main/src)
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📌 Sobre o projeto
 
-## Expanding the ESLint configuration
+O **CineVerse** é uma aplicação que consome dados de uma API de filmes para exibir informações como título, sinopse, avaliação e imagem dos filmes em destaque. O objetivo principal deste projeto foi praticar consumo de API REST, componentização com React, e a organização de um projeto front-end do zero.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🚀 Tecnologias utilizadas
+
+- React.js  
+- JavaScript  
+- CSS  
+- API TMDb (The Movie Database)
+
+---
+
+## 📚 O que aprendi
+
+Como estudante em transição para me tornar um desenvolvedor júnior, esse projeto me ensinou bastante sobre:
+
+- Uso de hooks do React como `useEffect` e `useState`;  
+- Como realizar requisições HTTP utilizando `fetch`;  
+- Manipulação de dados recebidos da API;  
+- Organização de componentes;  
+- Estilização com CSS tradicional;  
+- Tratamento de estados de carregamento e erro.
+
+---
+
+## 🧠 Desafios enfrentados
+
+Durante o desenvolvimento, enfrentei alguns obstáculos, especialmente na parte de integração com a API da TMDb:
+
+### Problemas com o carregamento inicial dos dados
+
+No início, a aplicação exibia uma tela em branco porque os dados ainda não haviam sido carregados da API. Levei um tempo para entender a importância de verificar se os dados existiam antes de renderizar os componentes.
+
+### Requisições mal formatadas
+
+Cometi erros simples, como esquecer de adicionar o `api_key` ou formatar incorretamente a URL. Esses erros resultavam em requisições falhando silenciosamente, o que dificultava o diagnóstico.
+
+### Tratamento de erros da API
+
+Aprendi que nem sempre a API retorna exatamente o que esperamos — precisei implementar verificações extras para garantir que a aplicação não quebrasse com dados indefinidos.
+
+### Ajuda externa para resolver um bug importante
+
+Em um momento específico, não conseguia fazer com que o `useEffect` atualizasse corretamente as informações ao navegar entre diferentes páginas de filmes. Depois de bastante tentativa e erro, pedi ajuda a um programador mais experiente, que me mostrou que eu precisava colocar as dependências corretas no array do `useEffect` e evitar chamadas repetidas à API.
+
+Essa troca foi extremamente valiosa e me ensinou o quanto a comunidade pode ser útil quando não conseguimos resolver tudo sozinhos.
+
+---
+
+## ⚠️ Possíveis problemas ao rodar o projeto
+
+- É necessário ter uma chave de API da TMDb. O projeto ainda não utiliza variáveis de ambiente para isso, então você pode precisar inserir sua chave diretamente no código para testes locais.  
+- A aplicação ainda não trata todos os erros possíveis, então uma resposta inesperada da API pode causar comportamentos estranhos.  
+- Não há paginação ou tratamento de limite de requisições, então pode acontecer de a API bloquear temporariamente após muitas chamadas.
+
+---
+
+## 📦 Como rodar o projeto
+
+Clone o repositório:
+
+```bash
+git clone https://github.com/joaovictorde-sena/CineVerse.git
+
+```
+
+Navegue até a pasta do projeto e instale as dependências:
+
+
+```bash
+cd CineVerse
+npm install
+```
+
+Insira sua chave da TMDb no código onde for necessário (provisoriamente).
+
+Inicie o projeto:
+
+```bash
+npm run dev
+```
