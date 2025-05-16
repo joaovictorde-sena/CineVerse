@@ -54,7 +54,7 @@ Aprendi que nem sempre a API retorna exatamente o que esperamos, precisei implem
 
 - É necessário ter uma chave de API da TMDb. O projeto ainda não utiliza variáveis de ambiente para isso, então você pode precisar inserir sua chave diretamente no código para testes locais.  
 - A aplicação ainda não trata todos os erros possíveis, então uma resposta inesperada da API pode causar comportamentos estranhos.  
-- Não há paginação ou tratamento de limite de requisições, então pode acontecer de a API bloquear temporariamente após muitas chamadas.
+
 
 ---
 
