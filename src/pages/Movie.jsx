@@ -2,8 +2,9 @@ import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import {
     BsGraphUp,
-    BsWallet2,
-    BsHourglassSplit,
+    BsCashCoin,
+    BsAlarmFill,
+    BsCalendar2CheckFill,
     BsFillFileEarmarkTextFill
 } from 'react-icons/bs'
 
@@ -46,7 +47,7 @@ const Movie = () => {
                 <p className="tagline">{movie.tagline}</p>
                 <div className="info">
                     <h3>
-                       <BsWallet2 /> Orçamento: 
+                       <BsCashCoin /> Orçamento: 
                     </h3>
                     <p>{formatCurrency(movie.budget)}</p>
                 </div>
@@ -58,9 +59,15 @@ const Movie = () => {
                 </div>
                 <div className="info">
                     <h3>
-                       <BsHourglassSplit /> Duração:
+                       <BsAlarmFill /> Duração:
                     </h3>
                     <p>{movie.runtime} minutos</p>
+                </div>
+                <div className="info">
+                    <h3>
+                        <BsCalendar2CheckFill /> Lançamento:
+                    </h3>
+                    <p>{new Date(movie.release_date).toLocaleDateString("pt-BR")}</p>
                 </div>
                 <div className="info description">
                     <h3>
