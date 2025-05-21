@@ -16,6 +16,7 @@ O **CineVerse** é uma aplicação que consome dados de uma API de filmes para e
 - JavaScript  
 - CSS  
 - API TMDb (The Movie Database)
+- React Icons (para exibição de ícones)
 
 ---
 
